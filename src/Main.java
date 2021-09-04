@@ -36,6 +36,10 @@ public class Main {
             final var secondTask = new SecondTask(filePath);
             final var frequencies = secondTask.getWordsFrequency();
 
+            System.out.print("Unique words is: ");
+            System.out.println(frequencies.keySet());
+            System.out.println();
+
             System.out.println("Word frequency stats:\n");
             for (final var entry : frequencies.entrySet()) {
                 System.out.printf("%s => %d\n", entry.getKey(), entry.getValue());
