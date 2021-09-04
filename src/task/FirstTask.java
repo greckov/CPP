@@ -8,6 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+// This class implements functionality for the task 4 chapter 1
 public final class FirstTask {
     private final Path directory;
 

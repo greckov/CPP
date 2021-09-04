@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
+// This class implements functionality for the task 6 chapter 2
 public final class SecondTask {
     private final Path textPath;
 
